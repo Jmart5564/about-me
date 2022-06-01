@@ -11,13 +11,14 @@
 
 <body>
     <header>
-        <img src="ring.jpg">
-        <!--<h1>About Me</h1>-->
+        <img class="ringpicture" src="ring.jpg">
+        <h1>About Me</h1>
+        <img class="ringpicture" src="ring.jpg">
     </header>
 
     <main>
         <section>
-            <h3>A Quick Introduction</h3>
+            <h1>A Quick Introduction</h1>
             <p>
                 Hello Everyone, Let me introduce myself. 
                 My name is Bilbo Baggins the hobbit and today is my eleventy-first birthday!
@@ -40,8 +41,17 @@
                 </label>
             </p>
             <p>Do you dare enter the realm of my favorite creatures?</p>
-            
+            <p>
+                <button id="enter-button" disabled>Enter</button>
+            </p>
+        </section>
 
+        <section id="creature-section" class="hidden">
+            <h1>My Top Three Creatures of Middle Earth!</h1>
+
+            <p>
+                <img id="default-image" src="Goblin.jpg">
+            </p>
         </section>
     </main>
 

@@ -15,7 +15,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: rgb(25, 52, 126);
+    background-color: rgb(73, 76, 83);
     height: 100px;
 }
 
@@ -30,7 +30,7 @@ footer {
     background-color: var(--footer-background);
 }
 
-.pinetree {
-    width: 20px;
-    height: 20px;
+.ringpicture {
+    width: 150px;
+    height: 100px;
 }
