@@ -10,11 +10,13 @@ body {
     font-family: 'Hubballi', cursive;
     background-color: var(--background);
     padding-bottom: 30px;
+    display: flex;
+    align-content: center;
 }
 
 header {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     background-color: rgb(73, 76, 83);
     height: 100px;
 }
@@ -33,4 +35,8 @@ footer {
 .ringpicture {
     width: 150px;
     height: 100px;
+}
+
+.elvish {
+    /*font-family: elvish;*/
 }
