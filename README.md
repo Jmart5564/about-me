@@ -1,3 +1,19 @@
+
+##My Plan
+
+1. Make Wireframe
+2. Establish skeleton of html and css elements
+3. Create terms of service checkbox and validatate it
+4. create button that shows hidden content and validadte it
+5. create drop down box with 3 different options
+6. create input to change animal name
+7. Remove console.log statements
+8. PR dev to main branch
+
+
+
+
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
