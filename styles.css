@@ -15,7 +15,8 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    background-color: rgb(25, 52, 126);
+    height: 100px;
 }
 
 footer {
@@ -27,4 +28,9 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.pinetree {
+    width: 20px;
+    height: 20px;
 }
