@@ -40,3 +40,7 @@ footer {
 .elvish {
     /*font-family: elvish;*/
 }
+
+.hidden {
+    display: none;
+}

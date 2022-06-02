@@ -1,7 +1,7 @@
 // grab DOM elements for part 1
 const termsCheckbox = document.getElementById('terms-checkbox');
 const enterButton = document.getElementById('enter-button');
-const creatureSelection = document.getElementById('creature-selection');
+const creatureSection = document.getElementById('creature-section');
 
 // grab DOM elements for part 2
 const nameInput = document.getElementById('name-input');
@@ -13,6 +13,11 @@ const imageDisplay = document.getElementById('image-display');
 termsCheckbox.addEventListener('change', () => {
     enterButton.disabled = !termsCheckbox.checked;
     console.log("enter button enabled");
+});
+
+enterButton.addEventListener('click', () => {
+    creatureSection.classList.remove('hidden');
+    console.log("shows creature section");
 });
     // get info from user input
     // use user input to update state
