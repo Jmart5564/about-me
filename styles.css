@@ -8,18 +8,11 @@
 
 body {
     font-family: 'Hubballi', cursive;
-    background-color: var(--background);
-    padding-bottom: 30px;
+    background-image: url("hobbiton.jpg");
     display: flex;
     align-content: center;
 }
 
-header {
-    display: flex;
-    align-items: stretch;
-    background-color: rgb(73, 76, 83);
-    height: 100px;
-}
 
 footer {
     position: fixed;
@@ -32,9 +25,19 @@ footer {
     background-color: var(--footer-background);
 }
 
-.ringpicture {
-    width: 150px;
-    height: 100px;
+#elvish-font {
+    background-color: rgba(119, 195, 223, 0.534);
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#creature-section {
+    background-color: rgba(119, 195, 223, 0.534);
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 5px;
+
 }
 
 .elvish {
