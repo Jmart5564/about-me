@@ -24,6 +24,10 @@ imageSelect.addEventListener('change', () => {
     const src = '' + imageSelect.value;
     imageDisplay.src = src;
 });
+
+nameInput.addEventListener('input', () => {
+    creatureName.textContent = nameInput.value;
+});
     // get info from user input
     // use user input to update state
     // update DOM to reflect the new state
