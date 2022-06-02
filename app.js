@@ -11,7 +11,7 @@ const imageDisplay = document.getElementById('image-display');
 
 // grab DOM elements for Font Change
 const englishButton = document.getElementById('english-button');
-const elvishFont = document.getElementById('elvish-font')
+const elvishFont = document.getElementById('elvish-font');
 
 // set event listeners
 termsCheckbox.addEventListener('change', () => {
