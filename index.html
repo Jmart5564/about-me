@@ -7,15 +7,74 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
     <title>Web UI Project</title>
+    <link href="http://fonts.cdnfonts.com/css/elvish" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
     </header>
 
     <main>
+        <p>
+            <button id="english-button">Translate to English!</button>
+        </p>
+        <section id="elvish-font" class="elvish">
+            <h1>A Quick Introduction</h1>
+            <img src="BilboBaggins.png">
+            <p>
+                Hello Everyone, Let me introduce myself. 
+                My name is Bilbo Baggins the hobbit and today is my eleventy-first birthday!
+                All I really wanted was to live a quiet peaceful life in my 
+                hobbit home, tend to my garden and smoke longbottom leaf(The finest in all the Shire).
+                One day, a band of Dwarves showed up at my door(a nasty ol' mess they made) and before
+                I knew it, I was leaving the Shire on a grand adventure. After a year of almost being 
+                eaten by trolls, meeting elves, being chased by goblins, riding barrels 
+                down a river and eventually breaking into a dragons lair to steal back
+                a mountain of gold, I find myself back at the shire. My most prized
+                possession from that adventure would have to be the mysterious ring 
+                I won by out-riddling a quite peculiar creature named gollum. Oh how 
+                much I love my ring....my precious....                              
+            </p>
+            <p>
+                <label>
+                    <input id="terms-checkbox" type="checkbox">
+                    I swear on the precious that I will never accept 
+                    random quests from Wizards ever again.        
+                </label>
+            </p>
+            <p>Do you dare enter the realm of my favorite creatures?</p>
+            <p>
+                <button id="enter-button" disabled>Enter</button>
+            </p>
+        </section>
+
+        <section id="creature-section" class="hidden">
+            <h1>My Top Three Creatures of Middle Earth!</h1>
+
+            <div>
+                <p>
+                    <img id="image-display" src="GreatGoblin.webp">
+                </p>
+                <p id="creature-name">Sharp Boi</p>
+            </div>
+
+            <h2>Discover More Creatures?</h2>
+            <p>
+                <label>
+                    Select a creature:
+                    <select id="image-select">
+                        <option value="GreatGoblin.webp">Goblins</option>
+                        <option value="Dragon.jpg">Dragons</option>
+                        <option value="Trolls.webp">Trolls</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Name this Creature: <input id="name-input" value="Sharp Boi">
+                </label>
+            </p>
+        </section>
 
     </main>
 
