@@ -16,12 +16,10 @@ const elvishFont = document.getElementById('elvish-font')
 // set event listeners
 termsCheckbox.addEventListener('change', () => {
     enterButton.disabled = !termsCheckbox.checked;
-    console.log("enter button enabled");
 });
 
 enterButton.addEventListener('click', () => {
     creatureSection.classList.remove('hidden');
-    console.log("shows creature section");
 });
 
 imageSelect.addEventListener('change', () => {
