@@ -9,6 +9,10 @@ const creatureName = document.getElementById('creature-name');
 const imageSelect = document.getElementById('image-select');
 const imageDisplay = document.getElementById('image-display');
 
+// grab DOM elements for Font Change
+const englishButton = document.getElementById('english-button');
+const elvishFont = document.getElementById('elvish-font')
+
 // set event listeners
 termsCheckbox.addEventListener('change', () => {
     enterButton.disabled = !termsCheckbox.checked;
@@ -27,6 +31,10 @@ imageSelect.addEventListener('change', () => {
 
 nameInput.addEventListener('input', () => {
     creatureName.textContent = nameInput.value;
+});
+
+englishButton.addEventListener('click', () => {
+    elvishFont.classList.remove('elvish');
 });
     // get info from user input
     // use user input to update state
