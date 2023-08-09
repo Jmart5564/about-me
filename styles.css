@@ -8,15 +8,11 @@
 
 body {
     font-family: 'Hubballi', cursive;
-    background-color: var(--background);
-    padding-bottom: 30px;
+    background-image: url("hobbiton.jpg");
+    display: flex;
+    align-content: center;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    background-color: var(--header-background);
-}
 
 footer {
     position: fixed;
@@ -27,4 +23,48 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+#elvish-font {
+    background-color: rgba(119, 195, 223, 0.637);
+    font-size: 23px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+#creature-section {
+    background-color: rgba(119, 195, 223, 0.534);
+    font-weight: 50;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.elvish {
+    font-family: elvish;
+}
+
+.hidden {
+    display: none;
+}
+
+#english-button {
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 200;
+    background-color: rgb(202, 224, 240);
+}
+
+#english-button:hover {
+    background-color: rgb(6, 56, 97);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#enter-button {
+    font-size: 20px;
 }
